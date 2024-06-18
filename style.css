@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: skyblue;
+    padding: 50px 40px;
+}
+input{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 17px;
+    border: none;
+    outline: none;
+    padding: 7px 39px;
+}
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    cursor: default;
+    text-align: center;
+    color: white;
+}
+h3{
+    color: white;
+    cursor: default;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 26px;
+    font-weight: bolder;
+    box-shadow: 0px 9px 10px rgb(43, 28, 28); 
+    border: none;
+}
+
+.press{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 41px;
+
+}
+.press-3{
+    pointer-events: none;
+   background-color: red;
+   color: black;
+}
+
+
+button:hover{
+    background-color: white;
+    color:black;
+}
+.red{
+    color: red;
+}
+
+@media screen and (max-width : 410px){
+    main{
+         margin-top: 40px;
+         margin-bottom: 40px;
+    }
+
+}
